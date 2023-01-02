@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head><title>Gallery</title></head>
+<style>
+body 
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(129, 168, 239);
+}
+
+h2
+{
+color:  rgba(5, 4, 4, 0.822);
+}
+.Projects{
+    width: 100%;
+    text-align: center;
+    position:static;
+}
+.gallery{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color:  rgba(81, 78, 78, 0.822);
+    padding: 20px 20px 40px 20px;
+}
+
+.content{
+    font-size: 16px;
+    margin: 8px;
+    max-width: 315px;
+    min-width: 230px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.content img{
+    width: 100%;
+    height: 40vh;
+    max-width: 100%;
+}
+</style>
+<body>
+    <div class="Projects">
+        <h2>PROJECT GALLERY</h2>
+    </div>
+    <div class="gallery">
+    <figure class="content">
+        <img src="P1.jpg">
+        <a href=""></a>
+    </figure>
+    <figure class="content">
+        <img src="P2.jpg">
+        <a href=""></a>
+    </figure>
+    <figure class="content">
+        <img src="P3.jpg">
+        <a href=""></a>
+    </figure>
+    </div>
+    <div class="gallery">
+        <figure class="content">
+            <img src="P7.jpg">
+            <a href=""></a>
+        </figure>
+        <figure class="content">
+            <img src="P5.jpg">
+            <a href=""></a>
+        </figure>
+        <figure class="content">
+            <img src="P6.jpg">
+            <a href=""></a>
+        </figure>
+        </div>
+        <div class="gallery">
+            <figure class="content">
+                <img src="P12.jpg">
+                <a href=""></a>
+            </figure>
+            <figure class="content">
+                <img src="P10.jpg">
+                <a href=""></a>
+            </figure>
+            <figure class="content">
+                <img src="P13.jpg">
+                <a href=""></a>
+            </figure>
+            </div>
+    </div>
+</body>
+</html>
